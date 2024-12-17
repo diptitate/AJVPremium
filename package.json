@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server/index.js",
     "dev": "nodemon server/index.js",
-    "build": "npm install --legacy-peer-deps && npm install --legacy-peer-deps --prefix ajv && npm run build --prefix ajv"
+    "build": "npm install && npm rebuild bcrypt --build-from-source && npm install --prefix ajv && npm run build --prefix ajv"
   },
   "author": "",
   "license": "ISC",
