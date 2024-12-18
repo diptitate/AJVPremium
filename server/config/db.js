@@ -1,19 +1,18 @@
-const mongoose = require('mongoose');
-
 const connectDB = async () => {
     try {
-        // Replace with your MongoDB connection string
-        const mongoURI = "mongodb+srv://ajvwebapp:ajvwebapp123@cluster0.rrsuh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+        const mongoURI = process.env.MONGO_URI || "mongodb+srv://ajvwebapp:ajvwebapp123@cluster0.rrsuh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+        if (!mongoURI) {
+            throw new Error("MongoDB URI is not defined.");
+        }
 
         const conn = await mongoose.connect(mongoURI, {
-            useNewUrlParser: true,
-            useUnifiedTopology: true,
+            // Deprecated options removed
         });
 
         console.log(`MongoDB Connected: ${conn.connection.host}`);
     } catch (error) {
-        console.error(`Error: ${error.message}`);
-        process.exit(1); // Exit process with failure
+        console.error(`MongoDB connection error: ${error.message}`);
+        process.exit(1); // Exit with failure
     }
 };
 
