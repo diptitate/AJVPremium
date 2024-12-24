@@ -31,7 +31,7 @@ const ProductDetails = () => {
 
     const [zoomImage,setZoomImage] = useState(false)
 
-    console.log('product id', params)
+    //console.log('product id', params)
 
     const fetchProductDetails = async()=>{
 
@@ -53,7 +53,7 @@ const ProductDetails = () => {
         setActiveImage(dataReponse?.data?.productImage[0])
     }
 
-    console.log("data", data)
+    //console.log("data", data)
 
     useEffect(() => {
         fetchProductDetails()

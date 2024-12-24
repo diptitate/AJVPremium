@@ -1,5 +1,3 @@
-import ProductDetails from "../pages/ProductDetails"
-
 
 const backendDomain = "https://ajv.green"
 
