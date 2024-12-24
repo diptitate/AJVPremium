@@ -1,7 +1,7 @@
 import ProductDetails from "../pages/ProductDetails"
 
 
-const backendDomain = "https://ajvpremium.onrender.com"
+const backendDomain = "https://ajv.green"
 
 const SummaryApi = {
     signUP : {
