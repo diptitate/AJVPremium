@@ -6,11 +6,11 @@ import { IoBatteryChargingOutline } from "react-icons/io5";
 import { HiOutlineWrenchScrewdriver } from "react-icons/hi2";
 import { MdOutlineDriveEta } from "react-icons/md";
 import TitleSection from "./TitleSection";
-import model1 from '../assets/model1.webp'
-import model2 from '../assets/model2.webp'
-import model3 from '../assets/model3.webp'
-import model4 from '../assets/model4.webp'
-import model5 from '../assets/model5.webp'
+import model1 from '../assets/model1.jpg'
+import model2 from '../assets/model2.jpg'
+import model3 from '../assets/model3.jpg'
+import model4 from '../assets/model4.jpg'
+import model5 from '../assets/model5.jpg'
 
 
 const ValueProposition = () => {

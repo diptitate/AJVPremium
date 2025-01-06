@@ -61,11 +61,13 @@ const Footer = () => {
                 </a>
                 <span className="py-2 px-2">ajvautomotivespvtltd@gmail.com</span>
               </li>
-              <li className="flex items-center cursor-pointer hover:text-secondary duration-200">
+              <li className="items-baseline flex cursor-pointer hover:text-secondary duration-200">
                 <a href="">
                   <FaMapMarkerAlt className="cursor-pointer hover:text-primary hover:scale-105 duration-200" />
                 </a>
-                <span className="py-2 px-2">Nuvem, Margao, Goa</span>
+                <span className="py-2 px-2">Shop No. G/15, Gr Floor, Alice Appts. <br />Nr. Rto,
+                Fatorda, South Goa, Salcete,<br /> Goa, India, 403602</span>
+                
               </li>
             </ul>
           </div>

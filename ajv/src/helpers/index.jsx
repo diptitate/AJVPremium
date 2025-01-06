@@ -37,9 +37,5 @@ export const checklistItems = [
       description:
         "Offering subscription plans for access to our exclusive network of fastcharging stations, generating recurring revenue.",
     },
-    {
-      title: "Battery Leasing Program",
-      description:
-        "A battery leasing option that lowers the upfront vehicle cost while providing ongoing revenue through monthly payments.",
-    },
+    
   ]
