@@ -32,10 +32,5 @@ export const checklistItems = [
       description:
         "Revenue from selling fully customizable electric vehicles tailored to individual customer preferences and need",
     },   
-    {
-      title: "Subscription-Based Charging Services",
-      description:
-        "Offering subscription plans for access to our exclusive network of fastcharging stations, generating recurring revenue.",
-    },
     
   ]
