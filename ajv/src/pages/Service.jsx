@@ -1,6 +1,6 @@
 import React from 'react'
 import Revenue from '../components/Revenue'
-import aboutbanner from '../assets/banner/about-banner.jpg' 
+import aboutbanner from '../assets/banner/striker_banner.jpg' 
 import Hero from '../components/Hero'
 import TitleSection from '../components/TitleSection'
 import Mission from '../components/Mission'

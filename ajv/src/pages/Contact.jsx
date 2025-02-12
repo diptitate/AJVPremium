@@ -2,7 +2,7 @@ import React from 'react'
 import gmap from '../assets/gmap.png'
 import { FaEnvelopeSquare, FaMapMarkerAlt, FaPhoneSquareAlt, FaClock } from "react-icons/fa";
 import Hero from '../components/Hero';
-import aboutbanner from '../assets/banner/about-banner.jpg'
+import aboutbanner from '../assets/banner/striker_banner.jpg'
 import TitleSection from '../components/TitleSection'
 
 const Contact = () => {

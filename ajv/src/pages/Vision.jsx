@@ -1,5 +1,5 @@
 import React from 'react'
-import aboutbanner from '../assets/banner/about-banner.jpg' 
+import aboutbanner from '../assets/banner/striker_banner.jpg' 
 import Hero from '../components/Hero'
 import TitleSection from '../components/TitleSection'
 import vision from '../assets/vision.png'
